@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+  }
+  .center{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  nav{
+    display: flex;
+    background-color: black;
+  }
+  .nav-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .brand-logo{
+    padding-left: 30px;
+    height: 70px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+
+  }
+  .nav-item{
+    font-size: x-large;
+    color: white;
+  }
+  .topSection {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-image: url("../Assets/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+    color: white;
+  }
+  .main{
+    color: #EAEAEA;
+    width: 50%;
+  }
+  .tag{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  #sidebar {
+    position: fixed;
+    top: 250px;
+    right: 0;
+    background-color: #ECE2E1;
+    padding: 0.5%;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+#sidebar h3 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: black;
+}
+
+  .btn-1{
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 15rem;
+    background-color: #EAEAEA;
+    border: none;
+  }
+  .btn-2{
+    padding: 5px auto;
+    border-radius: 20px;
+    width: 15rem;
+    border: none;
+  }
+  #close-btn {
+    position: absolute;
+    top: 80px;
+    right: 25px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #about{
+    text-align: center;
+    background-color: #ECE2E1;
+    padding-bottom: 3%;
+  }
+  .about-desc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .about-tagline{
+    padding: 2%;
+  }
+  #paragraphId{
+    font-size: medium;
+    padding: 2%;
+  }
+  #readMore{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+  #features{
+    background-color: #ECE2E1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .feature-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .feature-line{
+    padding-right: 2%;
+  }
+  .feature-img{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #clients{
+    margin-top: 2%;
+    text-align: center;
+    background-color: #ECE2E1;
+    padding-bottom: 2%;
+  }
+  .logo{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .client-logo{
+    width: 150px;
+    height: 50px;
+  }
+  #block-img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  #block-img img{
+    width: 100%;
+    max-height: 500px;
+  }
+  #contact{
+    text-align: center;
+    background-color: #ECE2E1;
+  }
+  .contact-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  .contact-detail{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2%;
+  }
+  .contact-detail input{
+    width: 100%;
+    height: 60px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    border: none;
+  }
+  .contact-detail button{
+    width: 100%;
+    height: 60px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(72, 176, 255);
+    border: none;
+    color: white;
+  }
+  .phone-email{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  svg{
+    height: 50px;
+    width: auto;
+    color: rgb(2, 2, 181);
+  }
+  .phone{
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .name{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(1, 1, 109);
+  }
+  .value{
+    font-size: 18px;
+    color: rgb(2, 2, 181);
+    border: none;
+  }
+  #footer{
+    margin-top: 2%;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+
+  

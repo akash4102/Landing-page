@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Easy ERP 4.0</title>
+
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+    rel="stylesheet"
+/>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./Assets/icons8-erp-64.png">
+  </head>
+  <body>
+    <div id="overlay" style="z-index: 1; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); display: none;">
+        <iframe id="video" width="100%" height="100%" src="about:blank"></iframe>
+        <button id="close-btn">X</button>
+    </div>
+    <button id="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+    </button>
+    <div id="sidebar" onclick="location.href='#contact';">
+        <h3>Reserve Your Seat</h3> 
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="home">
+        <nav>
+            <div class="nav-info">
+                <a href="#">
+                    <img class="brand-logo" src="https://eazysites.s3.ap-south-1.amazonaws.com/eazyerp/img/logo.png" alt="">
+                </a> 
+                <h3>Enterprise resource planning</h3>
+            </div>
+            <div class="nav-items">
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#about">About</a>
+                <a class="nav-item"href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header  -->
+
+	<!-- ======= Top Section ======= -->
+    <section id="top" class="topSection">
+        <div class="main container">
+            <h3 class="tag-line">Bridge towards Simpler Operations!</h3>
+            <h1 class="tag">Eazy ERP 4.0</h1>
+            <button onclick="location.href='#contact';" class="btn-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-lg" viewBox="0 0 16 16">
+                    <path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/>
+                  </svg>
+                  Reserve your seat
+            </button>
+            <button class="btn-2" id="play-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                  </svg>
+                  Know more
+            </button>
+        </div>
+    </section>
+    <!-- End Top -->
+
+	<!-- ======= About Section ======= -->
+    <section id="about" class="center">
+        <h1>
+            About us
+        </h1>
+        <hr>
+        <div class="about-desc">
+            <div>
+                <h1 class="about-tag">WHAT WE DO</h1>
+                <h3 class="about-tagline">
+                    Distribution network or Secondary Sales network is something which Companies were not able to manage completely.
+                </h3>
+                <p id="paragraphId">
+The pen and paper method was effective till the time goods were reaching directly from Manufacturer to Consumer. As and when the business started expanding, and the chain of distribution networks started to build in, that gave rise to the need of a software (Distributor Management System) which could Track, Manage and Control the entire activity.
+But Today, in the 21st century, With ever-changing and fast-growing consumer patterns, dynamic demand, competitive markets, Multiple variants of the same product, different types of schemes and Offers, Lacs of on boarded Super Stockists, Distributors, Retailers, their involvement in Multi Brand, all these collectively gave boom to the entire supply chain network like never before.
+Moreover now the Chain of Networks has increased from "Manufacturer, Superstockist, Distributor and Retailer' to other business partners as well who collectively complete the entire cycle.
+                </p>
+                <button id="readMore"> 
+                    Read More -->
+                </button>
+            </div>
+            <img class="feature-img" src="./Assets/bg-image.png" alt="">
+        </div>
+    </section>
+    <!-- End About Section -->
+	<!-- ======= Features Section ======= -->
+    <section id="features" class="center">
+        <div class="feature-description">
+            <img class="feature-img" src="https://media.istockphoto.com/id/958125096/photo/business-process-management-automation-concept-internet-and-erp-technology-gears.jpg?s=612x612&w=0&k=20&c=RMtiS5puT-Tr9Gmc7rm83qF2bB5Zv26kLlQAOnK6R5M=" alt="">
+            <div class="feature-line">
+                <h3>Because Every Business Partner Matters!</h3>
+                <p>From the initial phase to today the software has traveled through various approaches i.e. From Portal Based System to Tally & Busy Integrated DMS to Hybrid DMS - the Nxt Gen DMS. The Journey itself depicts the vision of Eazy DMS of providing the Best Solution to its clients by:</p>
+                <ul>
+                    <li>Solving the Need of the Hour!</li>
+                    <li> Providing the required platform as per the Industry Trend.</li>
+                    <li> Binding the entire Business Channel Together.</li>
+                </ul>
+                <h4>What to expect from Fusion 4.0 aka Eazy ERP 4.0?</h4>
+                <ul>
+                    <li>A techno-fusion of your Present Need and Future Want!</li>
+                    <li> A system bringing all your associates on a single platform.</li>
+                    <li>Now More visibility, Clear Communication, Better Coordination and Best of Best Results.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Section -->
+
+	<!-- ======= Clients Section ======= -->
+    <section id="clients" class="center">
+        <h2>Why Choose Rest when Industry Leaders Choose the Best!</h2>
+        <div class="logo">
+            <img class="client-logo" src="https://download.logo.wine/logo/Haldiram's/Haldiram's-Logo.wine.png" alt="Haldiram">
+            <img class="client-logo" src="https://download.logo.wine/logo/Panasonic_(brand)/Panasonic_(brand)-Logo.wine.png" alt="panasonic">
+            <img class="client-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFeZ9doEGlhd6W09YTDyTT1GMLTvvsYplgyUlHXD7JJA&s" alt="hindware">
+            <img class="client-logo" src="https://i.pinimg.com/736x/0e/7d/19/0e7d19a04dd482e56a436e69854943e2.jpg" alt="campus">
+            <img class="client-logo" src="https://i0.wp.com/logotaglines.com/wp-content/uploads/2017/05/goodyear-tyres-logo.jpg?fit=1384%2C585&ssl=1" alt="good-year">
+            <img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/JAI_Logo.jpg/1200px-JAI_Logo.jpg" alt="jai-industries">
+        </div>
+    </section>
+    <!-- End Clients Section -->
+
+	<!-- ======= block-image Section ======= -->
+    <section id="block-img">
+        <div>
+            <img src="https://media.istockphoto.com/id/1252123873/photo/enterprise-resource-planning-with-businessman.jpg?s=612x612&w=0&k=20&c=kifQ94tDQZ5wXATqoUZtt6hBgtg7-cmJrBsIoMtHp5g=" alt="">
+        </div>
+    </section>
+    <!-- End block-image Section -->
+
+
+	<!-- ======= Contact Section ======= -->
+    <section id="contact" class="center">
+        <h1>
+            RESERVE YOUR SEAT
+        </h1>
+        <hr>
+        <div class="contact-info">
+            <div class="phone-email">
+                <div class="phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg>
+                    <p class="name">PHONE NUMBER</p>
+                    <a class="value" href="tel:+919999999999"> 
+                        +91 9999999999
+                    </a>
+                </div>
+                <div class="email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                    <p class="name">EMAIL</p> 
+                    <a class="value" href="mailto:feedback@geeksforgeeks.org?cc=feedback@xyz.com&bcc=contact@xyz.org&subject=Mail to GeeksForGeeks&body=Demo email"
+                    target="_blank">
+                    contact@eazyerp.com
+                    </a>
+                </div>
+            </div>
+            <div class="contact-detail">
+                <input type="text" placeholder="Name*" required>
+                <input type="text" placeholder="Designation*" required>
+                <input type="text" placeholder="Company Name*" required>
+                <input type="text" placeholder="Contact Number*" required>
+                <input type="text" placeholder="E-mail (Official)*" required>
+                <button>submit</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+	<!-- =======footer=======  -->
+    <footer id="footer">
+        <p>© Copyright 2023 . All Rights Reserved</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts Start Here -->
+
+    <!-- bootstrap JavaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <!-- jquery file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- custom JavaScript file -->
+    <script src="./JavaScript/index.js"></script>
+  </body>
+</html>
